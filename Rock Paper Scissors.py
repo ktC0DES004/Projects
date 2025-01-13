@@ -8,16 +8,17 @@ CPU = random.randint(1,3)
  
 #Print Title and Input
 print("=============\nRock, Paper, Scissors\n=============")
-print("1)Rock\n2)Paper\n3)Scissors\n")
+print("1)Rock\n2)Paper\n3)Scissors")
 
-#Player Variable
-player = int(input("Pick a number: "))   
+#player variable
+player = int(input("\nPick a number: "))   
 
 #Validate Player Input
 if player < 1 or player > 3:
     print("(╯°□°）╯︵ ┻━┻ SELECT A VALID NUMBER")
 else:
-
+    print()
+    
     #Player Control Flow Statements                                                     
     if player == 1:
         print("You Chose: Rock")
